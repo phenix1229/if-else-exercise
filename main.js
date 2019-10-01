@@ -17,11 +17,32 @@ function isItShort(str) {
 }
 
 function howLongIsMyString(str) {
+  let stringSize = ""
+  if (isItShort(str)){
+    return isItShort(str);
+  }
+  else if (isItMedium(str)){
+    return isItMedium(str);
+  }
+  else if (isItLong(str)){
+    return isItLong(str);
+  }
 
 }
 
-function instructorHeight() {
+function instructorHeight(str) {
+  const colin = 62
+  const mesuara = 67
 
+  if (str === 'Colin') {
+    return colin;
+  }
+  else if (str === 'Mesuara') {
+    return mesuara;
+  }
+  else {
+    return "I don't know that instructor!"
+  }
 }
 
 
