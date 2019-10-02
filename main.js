@@ -17,7 +17,6 @@ function isItShort(str) {
 }
 
 function howLongIsMyString(str) {
-  let stringSize = ""
   if (isItShort(str)){
     return isItShort(str);
   }
